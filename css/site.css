@@ -162,6 +162,11 @@ a.nav3:hover::after {
 }
 
 iframe#GMaps {
-    margin-left: 10px;
+    margin-left: 800px;
+    margin-top: -270px;
     border: 1px solid black;
+}
+
+.carousel-indicators {
+    margin-bottom: -16px;
 }
