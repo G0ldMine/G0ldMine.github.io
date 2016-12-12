@@ -170,3 +170,7 @@ iframe#GMaps {
 .carousel-indicators {
     margin-bottom: -16px;
 }
+
+iframe#GMaps {
+    border-width: 0px;
+}
