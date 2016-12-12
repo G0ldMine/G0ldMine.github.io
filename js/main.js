@@ -65,20 +65,3 @@ $(document).ready(function(){
                 },
        },
     });
-
-    $("selector").validate({
-    showErrors: function() {
-        if (this.settings.highlight) {
-            for (var i = 0; this.errorList[i]; ++i) {
-                this.settings.highlight.call(this, this.errorList[i].element,
-                    this.settings.errorClass, this.settings.validClass);
-            }
-        }
-        if (this.settings.unhighlight) {
-            for (var i = 0, elements = this.validElements(); elements[i]; ++i) {
-                this.settings.unhighlight.call(this, elements[i],
-                    this.settings.errorClass, this.settings.validClass);
-            }
-        }
-    }
-});
